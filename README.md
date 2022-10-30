@@ -69,4 +69,10 @@ Depending on the answer the user inputs, the `handleAnswer` will check if there 
 
 The `getTokenInUsdAmount` and `resultFormatter` functions are responsible for the formatting and displaying of the results.
 
+### Note ###
+
+ - ```const headersFormat = ['date', 'tx-type', 'token', 'amount']``` if you happen to have more columns from your csv, you can easily update and make necessary changes to match your needs.
+ - if you choose to add more user prompt or option, edit the `prompts.js` and add/edit your desired prompts.
+ - update `const fileName = yourCSVFileName.csv` if you have a different file name. 
+
 <a href="#top">Back to top</a>
